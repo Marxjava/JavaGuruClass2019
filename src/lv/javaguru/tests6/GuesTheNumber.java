@@ -7,11 +7,11 @@ public class GuesTheNumber {
 
     public static void main(String[] args) {
 
-        checkThenumber(generateRandomNumber());
+        checkTheNumber(generateRandomNumber());
 
     }
 
-    private static void checkThenumber(int randomNumber) {
+    private static void checkTheNumber(int randomNumber) {
         int enteredNumber;
         do {
             enteredNumber = inputNumber();
