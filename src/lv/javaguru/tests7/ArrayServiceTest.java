@@ -1,6 +1,6 @@
 package lv.javaguru.tests7;
 
-public class ArrayServiceTes {
+public class ArrayServiceTest {
 
     public static void main(String[] args) {
 
