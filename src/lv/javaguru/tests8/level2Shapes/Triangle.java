@@ -1,6 +1,6 @@
-package lv.javaguru.leson8.shape;
+package lv.javaguru.tests8.level2Shapes;
 
-public class Triangle extends Shape implements Edgable {
+public class Triangle extends AbstractShape {
 
     private final double sideA, sideB, sideC, halfPerimeter;
 
@@ -12,20 +12,25 @@ public class Triangle extends Shape implements Edgable {
     }
 
     @Override
-    public int edgeCount() {
+    int edgeCount() {
         return 3;
-    }
-
-    @Override
-    double area() {
-        return Math.sqrt(halfPerimeter
-                * (halfPerimeter - sideA)
-                * (halfPerimeter - sideB)
-                * (halfPerimeter - sideC));
     }
 
     @Override
     double perimeter() {
         return sideA + sideB + sideC;
+    }
+
+    @Override
+    public String getName() {
+        return "Triangle";
+    }
+
+    @Override
+    public double getArea() {
+        return Math.sqrt(halfPerimeter
+                * (halfPerimeter - sideA)
+                * (halfPerimeter - sideB)
+                * (halfPerimeter - sideC));
     }
 }

@@ -7,4 +7,5 @@ public interface Animal {
     void poop();
 
     void sleep();
+
 }

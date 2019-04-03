@@ -1,19 +1,17 @@
-package lv.javaguru.leson8.shape;
+package lv.javaguru.tests8.level2Shapes;
 
 import java.math.BigDecimal;
 import java.math.MathContext;
 import java.math.RoundingMode;
 
-public abstract class Shape {
+public abstract class AbstractShape implements Shape {
 
-    abstract double area();
-
+    abstract int edgeCount();
     abstract double perimeter();
-
     @Override
     public String toString() {
-        return "\nMy perimeter is " + round(perimeter())
-                + "\nMy area is " + round(area());
+        return "\nMy name is " + getName()
+                + "\nMy area is " + round(getArea());
     }
 
     private double round(double value) {

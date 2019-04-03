@@ -1,6 +1,6 @@
 package lv.javaguru.leson8.shape;
 
-public class Circle extends Shape implements Roundable{
+public class Circle extends Shape implements Roundable {
 
     private final double radius;
 
@@ -15,11 +15,11 @@ public class Circle extends Shape implements Roundable{
 
     @Override
     double area() {
-        return Math.PI*Math.pow(radius,2);
+        return Math.PI * Math.pow(radius, 2);
     }
 
     @Override
     double perimeter() {
-        return 2*Math.PI*radius;
+        return 2 * Math.PI * radius;
     }
 }

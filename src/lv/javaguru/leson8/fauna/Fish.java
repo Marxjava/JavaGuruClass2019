@@ -8,7 +8,10 @@ abstract class Fish implements Animal {
 
     @Override
     public void eat() {
-        System.out.println(getFishName() + "is eating");
+        System.out.println(getFishName() + " is eating");
     }
 
+    public void makeBubbles(){
+        System.out.println(getFishName() + " is making bubbles");
+    }
 }
