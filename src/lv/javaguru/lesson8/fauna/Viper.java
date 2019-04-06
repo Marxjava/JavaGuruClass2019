@@ -1,4 +1,4 @@
-package lv.javaguru.leson8.fauna;
+package lv.javaguru.lesson8.fauna;
 
 class Viper implements Animal {
 

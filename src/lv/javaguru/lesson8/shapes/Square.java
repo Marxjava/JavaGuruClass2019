@@ -1,4 +1,4 @@
-package lv.javaguru.leson8.shape;
+package lv.javaguru.lesson8.shapes;
 
 public class Square extends Shape implements Edgable {
 

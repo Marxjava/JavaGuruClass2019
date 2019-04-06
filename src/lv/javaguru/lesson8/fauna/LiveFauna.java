@@ -1,4 +1,4 @@
-package lv.javaguru.leson8.fauna;
+package lv.javaguru.lesson8.fauna;
 
 public class LiveFauna {
 
@@ -13,7 +13,6 @@ public class LiveFauna {
         doge.dropSkin();
         living(goldy);
         goldy.swim();
-        goldy.makeBubbles();
     }
 
     private static void living(Animal animal) {

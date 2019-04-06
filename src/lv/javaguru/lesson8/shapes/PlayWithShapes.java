@@ -1,4 +1,4 @@
-package lv.javaguru.leson8.shape;
+package lv.javaguru.lesson8.shapes;
 
 import java.util.Arrays;
 
